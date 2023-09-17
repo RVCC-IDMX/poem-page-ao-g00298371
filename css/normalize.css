@@ -1,15 +1,65 @@
 /* 👇 Start custom code 👇 */
 
-#poeminfo {
-    margin-left: auto;
-    margin-right: auto;
+body {
+    background-color: rgb(45, 33, 19);
     text-align: center;
 }
 
+#poeminfo {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 5em;
+    font-family: "Bebas Neue";
+    padding-top: 1rem;
+    background-color: black;
+    color: rgb(255, 250, 140);
+}
+
+#poeminfo h3 {
+    font-family: "Montserrat";
+    color: rgb(255, 145, 0);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 20pt;
+    background-color: rgb(27, 23, 15);
+}
+
+#imagecredit h3 {
+    font-family: "Montserrat";
+    font-size: medium;
+    color: rgb(116, 92, 60);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 2.5rem;
+    border-radius: 20pt;
+}
+
 img {
-    width: 500px;
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
 }
 
 #poem {
-    padding: auto;
+    font-family: "Montserrat";
+    color: rgb(173, 171, 142);
+    padding-top: 2em;
+    padding-bottom: 2em;
+    border-left: 1rem;
+    border-right: 1rem;
+    border-bottom: 2em;
+    border-radius: 20pt;
+    margin-left: 10em;
+    margin-right: 10em;
+    margin-bottom: 10em;
+    background-color: rgb(10, 20, 6);
 }
