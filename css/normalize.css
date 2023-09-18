@@ -97,7 +97,7 @@ img {
     }
 }
 
-/* Media query for screens between 501px and 1280px wide */
+/* Media query for screens between 501px and 1110px wide */
 @media screen and (min-width: 500px) and (max-width: 1110px) {
 
     h1 {
