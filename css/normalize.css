@@ -83,11 +83,10 @@ img {
         font-size: 14px;
         margin-left: 2em;
         margin-right: 2em;
-        margin-bottom: 2.5rem;
     }
 
     img {
-        width: 250px;
+        width: 270px;
     }
 
     #poem {
@@ -99,4 +98,31 @@ img {
 }
 
 /* Media query for screens between 501px and 1280px wide */
-@media screen and (min-width: 500px) and (max-width: 1279px) {}
+@media screen and (min-width: 500px) and (max-width: 1110px) {
+
+    h1 {
+        font-size: 4em;
+    }
+
+    #imagecredit h3 {
+        font-size: 14px;
+    }
+
+    #poeminfo h3 {
+        font-size: 18px;
+        margin-left: 4em;
+        margin-right: 4em;
+    }
+
+    img {
+        width: 400px;
+    }
+
+    #poem {
+        font-size: 18px;
+        margin-left: 4.5em;
+        margin-right: 4.5em;
+        margin-bottom: 4.5rem;
+    }
+
+}
